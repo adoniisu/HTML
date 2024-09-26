@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(211, 241, 241);
+            margin: 0px;
+
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        
+        }
+        section > p {
+            font-weight: bold;
+            font-size: 25px;
+        }
+        nav {
+            background-color: rgb(248, 209, 209);
+            margin: auto;
+            padding: 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.301);
+            border-radius: 10px 20px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+    
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24);
+            border-radius: 10px 20px;
+        }
+        article{
+            background-color: rgb(185, 204, 204);
+            padding: 5px;
+        }
+
+        footer{
+            text-align: center;
+        }
+    </style> 
+</head>
+<body>
+    <header>
+        <h1>Bem vindos ao site</h1>
+        <nav>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p> Esportes e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Noticias atuais do Brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut id eligendi eaque nam tempora assumenda laboriosam aut officiis eius excepturi sequi nisi quia fugit qui veritatis, fugiat, dolorum sed.</p>
+                <aside>
+                    <p>Artigo escrito por José da Penha</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Etc e tal</p>
+    </footer>
+    
+</body>
+</html>
